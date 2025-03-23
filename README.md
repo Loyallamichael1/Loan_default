@@ -82,8 +82,3 @@ pip install -r requirements.txt
 
 Then, just run each part of the notebook in order. It’s easy to follow!
 
-## Who Made This
-
-- **Name**: [Your Name]
-- **Contact**: [Your Email]
-
