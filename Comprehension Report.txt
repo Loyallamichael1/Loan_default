@@ -1,0 +1,73 @@
+Loan Default Prediction: Comprehensive Report
+
+
+STREAMLIT PRESENTATION LINK: https://www.loom.com/share/df0d15e04c704f148683f44d75decdd2?sid=674a2f51-81bb-4475-be16-b2ae3f71e76b
+GITHUB LINK :https://github.com/Loyallamichael1
+
+
+
+1. Introduction
+
+Loan default prediction is a critical task for Global Trust Bank and other financial institutions to mitigate risk and optimize lending strategies. This project leverages machine learning techniques, particularly decision trees, to predict loan defaults based on borrower characteristics and financial history.
+
+2. Data Collection
+
+The dataset used in this project, df1_loan.csv, contains various borrower attributes such as income, employment status, credit history, loan amount, and demographic information. The dataset was loaded using Pandas for preprocessing and analysis.
+
+3. Data Preprocessing
+
+3.1 Handling Missing Values
+
+Missing categorical values (e.g., Gender, Married, Dependents, Self_Employed, Loan_Amount_Term, Credit_History) were imputed using the mode.
+
+Missing numerical values (LoanAmount) were imputed using the median.
+
+3.2 Feature Engineering & Encoding
+
+Categorical variables were encoded using Label Encoding and One-Hot Encoding.
+
+A new feature, Total_Income, was created by summing ApplicantIncome and CoapplicantIncome and converted to a numerical format.
+
+StandardScaler was used to normalize numerical variables (ApplicantIncome, CoapplicantIncome, LoanAmount, Total_Income) to ensure uniformity.
+
+4. Exploratory Data Analysis (EDA)
+
+Correlation Heatmap: Visualized feature relationships to identify dependencies between variables.
+
+Boxplots: Used to detect outliers in numerical features.
+
+Count Plots: Displayed class distributions for categorical variables.
+
+5. Model Development
+
+The dataset was split into training and test sets using an 80-20 ratio.
+
+A Decision Tree Classifier was implemented as the primary model for predicting loan defaults.
+
+The model was trained on the processed dataset, capturing decision rules based on financial attributes.
+
+6. Model Evaluation
+
+Accuracy Score: Evaluated the model's performance on the test set.
+
+Confusion Matrix: Assessed classification performance by examining true positives, false positives, false negatives, and true negatives.
+
+Classification Report: Provided precision, recall, and F1-score metrics to understand model strengths and weaknesses.
+
+7. Decision Tree Interpretation
+
+A visualization of the decision tree was generated to interpret the decision-making process of the model. This helps in understanding how different factors contribute to loan approval or default predictions.
+
+8. Practical Implications & Recommendations
+
+Global Trust Bank can use the model to assess borrower risk and refine lending criteria.
+
+High-risk customers can be identified early, allowing proactive measures such as requesting additional guarantees.
+
+Feature importance analysis suggests that credit history and total income are key determinants of loan default risk.
+
+The bank should prioritize applicants with a strong credit history and stable income sources.
+
+9. Conclusion
+
+This project successfully built a loan default prediction model using decision trees. The model demonstrated insights into borrower risk and provided a valuable tool for financial decision-making. Further improvements can be made by incorporating more advanced ensemble techniques like Random Forests or Gradient Boosting to enhance predictive accuracy.
