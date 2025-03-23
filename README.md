@@ -66,6 +66,12 @@ You can watch a video that explains this project step-by-step:
 
 [WATCH THE VIDEO HERE](https://www.loom.com/share/df0d15e04c704f148683f44d75decdd2?sid=674a2f51-81bb-4475-be16-b2ae3f71e76b)
 
+## Try the App Yourself!
+
+You can also try our app by clicking the link below:
+
+[OPEN THE APP HERE](https://loandefault-7iphccvrgebjgn6zuqmkzj.streamlit.app/)
+
 ## How to Use Our Work
 
 First, you need to get ready by using this command:
@@ -76,4 +82,8 @@ pip install -r requirements.txt
 
 Then, just run each part of the notebook in order. It’s easy to follow!
 
+## Who Made This
+
+- **Name**: [Your Name]
+- **Contact**: [Your Email]
 
