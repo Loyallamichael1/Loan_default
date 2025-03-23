@@ -13,7 +13,7 @@ st.set_page_config(page_title="Loan Default Predictor", layout="centered")
 # 💾 Load & preprocess your dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/Harri/OneDrive/Desktop/JN/Machine_Learning/MLassignment2/Assignment 2/df1_loan.csv")
+    df = pd.read_csv("df1_loan.csv")
 
     df.fillna({
         'Gender': df['Gender'].mode()[0],
